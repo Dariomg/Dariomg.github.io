@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="Descripcion" content="Socio de la pagina web">
+	<meta name="Keywords" content="Hazte Socio">
+	<title>Hazte socio</title>
+	<link rel="stylesheet" href="../css/css.css">
+	<link rel="icon" href="../imagenes_video/lolicono.png">
+</head>
+<body>
+		<header>
+		<h1><strong>Hazte socio de la pagina</strong></h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="../Index.html">Inicio</a></li>
+				<li><a href="../Portfolio/Lineas.html">Lineas</a></li>
+				<li><a href="../Portfolio/Historia.html">Historia Esports</a></li>				
+				<li><a href="https://www.twitch.tv/riotgames">Canal oficial de Twitch de Riot Games</a></li>
+			</ul>
+		</nav>
+		<section>
+		<article>
+		<h2>Rellene estos datos para hacerse socio</h2>
+			<form name="formulario" action="#">
+				<fieldset>
+				<legend>Datos Personales</legend>
+					<label for="nombre">Nombre </label>
+					<input id="nombre" type="text" name="nombre" placeholder="Nombre" required="required" >
+					<br>
+					<label for="Apellidos">Apellidos</label>
+					<input id ="Apellidos" type="text" name="Apellidos" placeholder="Apellidos" required="required">
+					<br>
+					<label for="Teléfono">Teléfono</label>
+					<input id="Teléfono" type="tel" name="telefono" placeholder="Teléfono" required="required" pattern="[0-9]{3}-[0-9]{6}">
+					<br>
+					<label for="Email">Email</label>
+					<input id="Email" type="email" name="email" placeholder="Email" required="required">
+					<br>
+					<label for="Fecha de Nacimiento">Fecha de Nacimiento</label>
+					<input id="Fecha de Nacimiento" type="date" name="fecha" required="required">
+					<br>
+					<label for="Sexo">Sexo</label>
+					<input id="Sexo" type="radio" name="sexo" value="H" required="required">Hombre
+					<input id="Sexo" type="radio" name="sexo" value="M" required="required">Mujer
+					<input id="Sexo" type="radio" name="sexo" value="N" required="required">Nobinario
+				</fieldset>
+					<label for="Extra">Extra</label>
+					<input id="Extra" style="color: red;" type="checkbox"> Quiero suscribirme al boletín para recibir noticias cuando salgan inmediatamente
+				<br/>
+				<br/>
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Borrar">
+			</form>
+		</article>
+	</section>
+	<footer>
+			<p>© 2023  lolesports Todos los derechos reservados.</p>
+            <p>lolesports@ong.org</p>
+		</footer>
+</body>
+</html>
